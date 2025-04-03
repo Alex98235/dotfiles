@@ -1,0 +1,64 @@
+[env]
+TERM = "xterm-256color"
+
+[bell]
+animation = "Linear"
+color = "#b59b9c"
+duration = 0
+
+[cursor.style]
+blinking = "Off"
+shape = "Beam"
+
+[font]
+size = 13
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[mouse]
+hide_when_typing = true
+
+[scrolling]
+multiplier = 15
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ''',│`|:"' ()[]{}<>	'''
+
+[window]
+decorations = "transparent"
+dynamic_padding = false
+dynamic_title = false
+opacity = 0.8
+startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 150
+lines = 45
+
+[window.padding]
+x = 0
+y = 0
+
+[window.position]
+x = 2500
+y = 700
+
+[general]
+live_config_reload = true
+# TODO Change to catppuccin
+import = ["~/.config/alacritty/catppuccin-frappe.toml"]
