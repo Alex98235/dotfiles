@@ -6,20 +6,6 @@ export TERM=xterm-256color
 # Zellij uses the SHELL variable
 export SHELL="zsh"
 
-#####################
-# NNN CONFIGURATION #
-####################
-
-# enable nnn plugins
-export NNN_PLUG='f:finder;o:fzopen;p:mocq;d:diffs;t:nmount;v:imgview'
-
-# Comfort options for nnn (always use)
-alias nnn="nnn -H -e" 
-set --export NNN_FIFO "/tmp/nnn.fifo"
-
-#######################
-
-
 alias update="sudo pacman -Syyu"
 
 # Path Variables
