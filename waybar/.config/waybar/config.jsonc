@@ -1,10 +1,5 @@
 {
   "position": "top",
-<<<<<<< HEAD
-  "modules-left": ["hyprland/workspaces"],
-  "modules-center": ["hyprland/window"],
-  "modules-right": ["network", "pulseaudio", "battery", "clock", "tray"],
-=======
   "modules-left": [
     "hyprland/workspaces"
   ],
@@ -14,10 +9,10 @@
   "modules-right": [
     "network",
     "pulseaudio",
-    // "battery",
-    "clock"
+    "battery",
+    "clock",
+    "tray"
   ],
->>>>>>> 1810c1579196efb73f7d2fff19353c0fddfc3b99
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
@@ -48,11 +43,8 @@
     "format-ethernet": "<span size='13000' foreground='#f5e0dc'>󰤭  </span> Disconnected",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
-<<<<<<< HEAD
     "tooltip-format-wifi": "Signal Strenght: {signalStrength}%",
-=======
     "tooltip-format-wifi": "Signal Strength: {signalStrength}%"
->>>>>>> 1810c1579196efb73f7d2fff19353c0fddfc3b99
   },
   "pulseaudio": {
     "format": "{icon}  {volume}%",
