@@ -6,11 +6,18 @@ export TERM=xterm-256color
 # Zellij uses the SHELL variable
 export SHELL="zsh"
 
+export JAVA_HOME="/usr/lib/jvm/java-24-jdk"
+
 alias update="sudo pacman -Syyu"
 
 # Path Variables
-#oh my posh, etc...
+# oh my posh, etc...
 path+=("/home/alex/.local/bin/")
+path+=("$PATH:$HOME/flutter/bin")
+# android-sdk
+export ANDROID_SDK_ROOT="/opt/android-sdk"
+path+=("/opt/android-sdk/cmdline-tools/latest/bin")
+path+=("/opt/android-sdk/platform-tools")
 
 export PATH
 autoload -U compinit; compinit
@@ -99,3 +106,6 @@ eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/custom.toml)"
 #         -----------------------
 #         
 # echo "TODO: install and configure nnn (n3) https://github.com/jarun/nnn"
+
+# Exec the funny talking animal program
+#./funny-programs/talking-animals/bin/main ~/funny-programs/talking-animals/ascii_animals.txt
