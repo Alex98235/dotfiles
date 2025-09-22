@@ -30,7 +30,7 @@ powerline_symbol = ""
 leading_powerline_symbol = "█"
 foreground = "p:base"
 background = "p:blue"
-template = "{{ .UserName }}"
+template = "{{ if .SSHSession }} {{ end }}{{ .UserName }}"
 
 [[blocks.segments]]
 type = "path"

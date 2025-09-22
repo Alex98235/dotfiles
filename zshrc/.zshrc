@@ -10,7 +10,7 @@ alias update="sudo pacman -Syyu"
 
 # Path Variables
 #oh my posh, etc...
-path+=("/home/alex/.local/bin/")
+path+=("$HOME/.local/bin/")
 
 export PATH
 autoload -U compinit; compinit
